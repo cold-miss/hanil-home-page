@@ -224,7 +224,7 @@ main{
 #index #main-visual{
     width: 100%;
     height: 550px;
-    background-image: url(/HANIL/images/Background.jpg);
+    background-image: url(./HANIL/images/Background.jpg);
     background-position: center;
     background-size: cover;
     
@@ -619,7 +619,7 @@ line-height: 26px;
 #CEO-Greetings  #main-visual{
     width: 100%;
     height: 550px;
-    background-image: url(/HANIL/images/CEO-Greetings-img-01.jpg);
+    background-image: url(./HANIL/images/CEO-Greetings-img-01.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -694,7 +694,7 @@ line-height: 26px;
 #History  #main-visual{
     width: 100%;
     height: 550px;
-    background-image: url(/HANIL/images/History-img.jpg);
+    background-image: url(./HANIL/images/History-img.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -834,7 +834,7 @@ line-height: 26px;
 #main-visual{
     width: 100%;
     height: 550px;
-    background-image: url(/HANIL/images/Location-img.jpg);
+    background-image: url(./HANIL/images/Location-img.jpg);
     background-position: center;
     background-size: cover;
 }
