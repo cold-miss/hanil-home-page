@@ -23,6 +23,6 @@
       구글 지도에서 iframe-html 가져옴  
     - 서브페이지에 aos 플러그인을 넣어 움직이는 애니메이션 effect 추가
 ### 03-28
-    -pc, mobile -  scroll-behavior: smooth; 추가
+    -pc, mobile -  scroll-behavior: smooth; 추가을 하여 top 버튼을 누를 시 부드럽게 맨 위로 스크롤링 됨.
     
 
