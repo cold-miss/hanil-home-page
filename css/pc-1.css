@@ -726,7 +726,7 @@ main {
     top: 10%;
     left: 10%;
     font-size: 16px;
-    border-bottom: 1px solid red;
+    /* border-bottom: 1px solid red; */
 }
 
 .recruit-info-box .recruit-info-title {
@@ -885,11 +885,13 @@ main .talent-main-middle {
     padding-right: 10vw;
     position: absolute;
     top: 45vh;
+    /* outline: 1px solid red; */
 }
  
 .talent-main-middle .sub-tab-menu ul{
     display: flex;
     height: 10vh;
+    
 }
 
 .talent-main-middle .sub-tab-menu ul li{
@@ -899,11 +901,14 @@ main .talent-main-middle {
     align-items: center;
     background-color: #0D0F87;
     margin-left: 1px;
+      /* outline: 1px solid red; */
+  
 }    
 
 .talent-main-middle .sub-tab-menu ul li a {
     color: #fff;
     font-size: 24px;
+      /* outline: 1px solid red; */
 }
 
 main .talent-title-text {
@@ -921,9 +926,10 @@ main .talent-title-text {
 
 
 main .talent-title-text h3{
-    margin-top: 125px;
+   
     font-size: 36px;
     margin-bottom: 50px;
+    /* outline: 1px solid red; */
 }
 
 main .talent-title-text .text-border-line2 {
