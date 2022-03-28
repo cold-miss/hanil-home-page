@@ -23,7 +23,7 @@ header{
     align-items: center;
     margin-bottom: 10px;
     margin-top: 10px;
-    z-index: 4;
+    z-index: 9999;
 }
 
 #H-logo {
@@ -794,15 +794,17 @@ main .talent-title-text {
 
 
 main .talent-title-text h3{
-    margin-top: 125px;
+    margin-top: 225px;
     font-size: 24px;
     margin-bottom: 50px;
+    /* outline: 1px solid red; */
 }
 
 main .talent-title-text p{
     font-size: 18px;
     padding-left: 5vw;
     padding-right: 5vw;
+    margin-bottom: 150px;
 }
 
 main .talent-title-text .text-border-line2 {
