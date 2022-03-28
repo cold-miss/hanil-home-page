@@ -231,6 +231,7 @@ header{
     background-color: transparent;
     border-style: none;
     border-bottom: 1px solid gray ;
+    color: #fff;
 }
 
 .search-box form input img {
@@ -728,6 +729,12 @@ main {
     margin-left: 15px;
     margin-right: 15px;
 }
+
+#talent-main-up .bread-crumb .bread-crumb-text p > .bread-crumb-gray{
+    /* outline: 1px solid red; */
+    color: #333;
+  }
+  
 
 #talent-main-up .bread-crumb-info .bread-crumb-under {
     width: 40vw;
