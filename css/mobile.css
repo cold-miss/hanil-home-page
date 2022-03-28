@@ -308,6 +308,8 @@ header{
     align-items: center;
     background-color: var(--background-color);
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #contents-04 .contents-04-container .c-4-text{
