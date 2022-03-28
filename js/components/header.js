@@ -3,7 +3,7 @@ function header() {
     return `
     <header>
     <h1 id="H-logo">
-        <a href="#">
+        <a href="./index.html">
             <img src="./images/한일제약-컬러-logo.svg" alt="color-logo">
         </a>
     </h1>
@@ -16,7 +16,7 @@ function header() {
                     </button>
                     <ul class="depth-2">
                         <li>
-                            <a href="./index.html">기업소개</a>
+                            <a href="./About-Us.html">기업소개</a>
                         </li>
                         <li>
                             <a href="./CEO-Greetings.html">CEO 인사말</a>
@@ -49,12 +49,12 @@ function header() {
                     </button>
                     <ul class="depth-2">
                         <li>
-                            <a href="./Recruitment-Guide.html">
+                            <a href="./recruit.html">
                                 채용안내
                             </a>
                         </li>
                         <li>
-                            <a href="./Talent.html">
+                            <a href="./talent.html">
                                 인재상
                             </a>
                         </li>
@@ -131,7 +131,7 @@ function header() {
         <ul class="sitme-map-1depth">
             <li><a href="#">회사소개</a>
                 <ul class="site-map-2depth">
-                    <li><a href="./index.html">기업소개</a></li>
+                    <li><a href="./About-Us.html">기업소개</a></li>
                     <li><a href="./CEO-Greetings.html">CEO 인사말</a></li>
                     <li><a href="./History.html">연혁</a></li>
                     <li><a href="./Location.html">오시는 길</a></li>
@@ -148,8 +148,8 @@ function header() {
 
             <li><a href="#"> 채용공고</a>
                 <ul class="site-map-2depth">
-                    <li><a href="#">채용안내</a></li>
-                    <li><a href="#">인재상</a></li>
+                    <li><a href="./recruit.html">채용안내</a></li>
+                    <li><a href="./talent.html">인재상</a></li>
                 </ul>
             </li>
 

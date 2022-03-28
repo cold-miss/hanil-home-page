@@ -3,7 +3,7 @@ function footer() {
   return `
   <footer id="footer">
         <h1 class="f-logo pc-only">
-            <a href="#" class="pc-only">
+            <a href="./index.html" class="pc-only">
                 <img src="./images/footer-black-logo.svg" alt="">
             </a>
         </h1>
