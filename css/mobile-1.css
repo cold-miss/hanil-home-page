@@ -677,8 +677,9 @@ main {
     background-image: url(../images/메인비쥬얼/인재상-메인.jpg);
     background-size: cover;
     width: 100%;
-    height: 85vh;
-    /* outline: 1px solid red; */
+    height: 460px;
+    background-position: center;
+    margin-bottom: 250px;
 }
 
 #talent-main-up {
@@ -692,12 +693,16 @@ main {
 #talent-main-up .holder-title {
     background: #4373C2;
     color: #fff;
-    position: absolute;
-    left: 10vw;
-    right:10vw;
+    /* position: absolute; */
     overflow: hidden;
-    padding: 5vh 0vh;
+    padding-top: 100px;
+
+    margin-top: 155px;
+    height: 350px;
+    top: 255px;
     text-align: center;
+    /* outline: 1px solid red; */
+    width: 100%;
 }    
 
 .holder .holder-title h2{
@@ -920,7 +925,10 @@ main .talent-title-text h2{
     background-image: url(../images/메인비쥬얼/채용안내-메인.jpg);
     background-size: cover;
     width: 100%;
-    height: 85vh;
+    height: 460px;
+    background-position: center;
+    margin-bottom: 250px;
+ 
 }
 
 .recruit-title-text {
@@ -1073,6 +1081,9 @@ main .recruit-title-total-wrap{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* outline: 1px solid red; */
+    padding-top: 6%;
+
 }   
 
 .recruit-notice .recruit-notice-container .recruit.noticebox {
@@ -1082,13 +1093,13 @@ main .recruit-title-total-wrap{
     color: #fff;
     margin-top: 20px;
     padding: 40px 45px;
+    /* outline: 1px solid red; */
 }    
 
 .recruit-notice .recruit-notice-container .recruit-btn {
-    position: absolute;
-    left: 50vw;
-    top: 100vh;
-    transform: translate(-50%, -50%);
+    margin-top: 10%;
+    margin-bottom: 10%;
+    /* outline: 1px solid red; */
 }
 
 .recruit-notice .recruit-notice-container .recruit-btn a {
@@ -1123,6 +1134,8 @@ main .recruit-title-total-wrap{
     font-weight: 400;
     font-size: 12px;
     margin-top: 55px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #footer .f-info > ul > li{

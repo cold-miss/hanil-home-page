@@ -798,19 +798,21 @@ main {
 .talent-main .main-visual {
     background-image: url(../images/메인비쥬얼/인재상-메인.jpg);
     background-size: cover;
-    width: 100vw;
-    height: 85vh;
+    width: 100%;
+    height: 550px;
+    background-position: center;
 }
 
 #talent-main-up {
     margin: 0 auto;
     width: 100vw;
-    height: 55vh;
+    height: 400px;
     position: absolute;
-    overflow: hidden;
-    top: 65vh;
+    /* overflow: hidden; */
+    top: 40vh;
     display: flex;
     justify-content: space-between;
+    /* outline: 1px solid red; */
 }
 
 #talent-main-up .holder {
@@ -836,9 +838,9 @@ main {
 }   
 
 #talent-main-up .bread-crumb .bread-crumb-info {    
-    padding-top: 45vh;
+    padding-top: 40vh;
     padding-left: 10vw;
-   
+    /* outline: 1px solid red; */
 }    
 
 #talent-main-up .bread-crumb .bread-crumb-text p {
@@ -860,7 +862,7 @@ main {
 
 #talent-main-up .bread-crumb .bread-crumb-text p > .bread-crumb-gray{
   /* outline: 1px solid red; */
-  color: #333;
+  color: #4444;
 }
 
 
@@ -1042,8 +1044,9 @@ main .talent-title-text h2{
 .main-visual-recruit {
     background-image: url(../images/메인비쥬얼/채용안내-메인.jpg);
     background-size: cover;
-    width: 100vw;
-    height: 85vh;
+    width: 100%;
+    height: 550px;
+    background-position: center;
 }
 
 .recruit-title-text {
