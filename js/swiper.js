@@ -37,7 +37,7 @@ const swiper = new Swiper('.swiper', {
     speed: 4000, // 전환효과시간
     slidesPerView: 5,
     spaceBetween: 30,
-    slidesPerGroup: 1,
+    slidesPerGroup: 3,
     loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
