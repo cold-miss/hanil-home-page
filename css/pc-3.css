@@ -42,8 +42,8 @@ header{
 #GNB .depth-1 > li {
     display: inline-block;
     text-align: center;
-    margin-right: 70px;
-    margin-left: 70px;
+    margin-right: 30px;
+    margin-left: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -293,7 +293,7 @@ hr{
   padding: 10px 0;
   box-sizing: border-box;
 }
-.qna > li:nth-child(n+1){ /* 아이템 구분 점선 */
+.qna > li:nth-child(n+2){ /* 아이템 구분 점선 */
   border-top: 1px dashed #aaa;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -569,7 +569,8 @@ input[type=search]::-ms-clear {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 70px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #footer .f-logo {
@@ -592,6 +593,10 @@ input[type=search]::-ms-clear {
     display: flex;
 }
 
+#footer .f-right-menu .sns-group{
+    margin-right: 450px;
+}
+
 #footer .f-right-menu .sns-group > ul > li{
     display: inline-block;
     
@@ -599,9 +604,15 @@ input[type=search]::-ms-clear {
 }
 
 .f-right-menu .top-btn {
-    margin-right: 20px;
-    margin-left: 330px;
+    position: fixed;
+   right: 20px;
+   bottom: 115px;
+   background-color: #fbfbfb;
+   height: 42px;
 }
+
+
+
 
 
 
