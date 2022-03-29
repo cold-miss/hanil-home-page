@@ -36,7 +36,7 @@ function header() {
                     </button>
                     <ul class="depth-2">
                         <li>
-                            <a href="#">제품정보</a>
+                            <a href="./product.html"">제품정보</a>
                         </li>
                     </ul>
                 </li>
@@ -69,7 +69,7 @@ function header() {
                     </button>
                     <ul class="depth-2">
                         <li>
-                            <a href="#">
+                            <a href="./FAQ.html">
                                 FAQ
                             </a>
                         </li>
@@ -90,7 +90,7 @@ function header() {
                     <ul class="depth-2">
                         <li>
                             <a href="#">
-                                FAQ
+                                공지사항
                             </a>
                         </li>                        
                         <li>
@@ -140,7 +140,7 @@ function header() {
 
             <li><a href="#"> 제품소개</a>
                 <ul class="site-map-2depth">
-                    <li><a href="#">제품정보</a></li>
+                    <li><a href="./product.html">제품정보</a></li>
 
                 </ul>
             </li>
@@ -155,7 +155,7 @@ function header() {
 
             <li><a href="#">고객문의</a>
                 <ul class="site-map-2depth">
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="./FAQ.html">FAQ</a></li>
                     <li><a href="#">문의하기</a></li>
                 </ul>
             </li>
